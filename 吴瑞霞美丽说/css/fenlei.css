@@ -1,0 +1,270 @@
+@import url('base.css');
+/* header开始 */
+.headerbox{
+	width: 100%;
+	height: 0.89rem;
+	background: #fff;
+	border-bottom:0.01rem solid #CDCCCC;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.32rem 0.34rem 0 0.35rem;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 0.01rem solid #C5C5C5;
+}
+.headerbox1{
+	width: 100%;
+	height: 0.89rem;
+}
+.header-left{
+	width: 0.41rem;
+	height: 0.40rem;
+	background: url('../img/sousuo.png') no-repeat center center;
+	background-size: 0.41rem 0.40rem;
+}
+.header-center{
+	width: 0.9rem;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #000;
+}
+.header-right{
+	width: 0.4rem;
+	height: 0.37rem;
+	background: url('../img/header-right.png') no-repeat center center;
+	background-size: 0.4rem 0.37rem;
+}
+/* header结束 */
+.kong{
+	width: 100%;
+	height: 0.1rem;
+	background: #F2F5F8;
+}
+/* 全部分类开始 */
+.fen-box{
+	width: 100%;
+	height:10.01rem;
+}
+.fen-top{
+	width: 100%;
+	height: 0.85rem;
+	display: flex;
+	align-items: center;
+	padding: 0 0.2rem 0 0.2rem;
+}
+.fen-top a{
+	font-size: 0.28rem;
+	color: #000;
+}
+.fen-list{
+	width: 100%;
+	height: 2.29rem;
+	display: flex;
+}
+.fen-list li{
+	width: 1.6rem;
+	height: 2.29rem;
+	border: 0.01rem solid #F2F5F8;
+}
+.fen-list li img{
+	width: 100%;
+	height: 1.77rem;
+	display: block;
+
+}
+.fen-list li p{
+	font-size: 0.26rem;
+	text-align: center;
+	color: #333;
+}
+/* 全部分类结束 */
+/* 热门开始 */
+.chuan-box{
+	width: 100%;
+	height: 2.65rem;
+	padding: 0 0.2rem 0 0.2rem;
+}
+.chuan-top{
+	width: 100%;
+	height: 0.85rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.chuan-top p{
+	font-size: 0.28rem;
+	color: #000;
+}
+.chuan-top a{
+	font-size:0.28rem;
+	color: #666666; 
+}
+.chuan-tu{
+	width: 100%;
+	height: 1.45rem;
+	display: flex;
+	overflow: hidden;
+}
+.chuan-tu li{
+	width: 2.39rem;
+	height: 1.45rem;
+    margin-right: 0.2rem;
+    position: relative;
+}
+.chuan-tu li img{
+	width: 2.39rem;
+	height: 1.45rem;
+   display: block;
+}
+.chuan-tu li p{
+	font-size: 0.24rem;
+	color: #333;
+	position: absolute;
+	top: 0.65rem;
+	right: 0;
+	font-weight: 600;
+}
+/* 热门结束 */
+/* 最后开始 */
+.liuxing-box{
+	width: 100%;
+	height:12.42rem; 
+}
+.liuxing-top{
+	width: 100%;
+	height: 1.12rem;
+	padding: 0.29rem 0.51rem;
+}
+.liuxing-top1{
+	width: 5.38rem;
+	height: 0.54rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing-top1 li{
+	width: 0.48rem;
+	height: 0.54rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.liuxing-top1 li a{
+	font-size: 0.24rem;
+	color: #000;
+}
+.xiaxian{
+	width: 0.48rem;
+	height: 0.04rem;
+	background: #333333;
+	opacity: 0;
+}
+.xiaxian:hover{
+   opacity: 1;
+}
+.liuxing-top1 li:nth-of-type(1) .xiaxian{
+	opacity: 1;
+}
+.danpin-tu{
+	width: 100%;
+	height: 5.6rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.2rem 0 0.2rem;
+}
+.danpin-tu li{
+	width: 2.9rem;
+	height: 5.6rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.danpin-tu li img{
+	display: block;
+	width: 2.9rem;
+	height: 4.35rem;
+}
+.danpin-zi{
+	width: 2.72rem;
+	height: 0.66rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.danpin-zi a{
+	display: block;
+	font-size: 0.2rem;
+	color: #9293A5;
+	margin-right: 0.1rem;
+	background: #F2F5F8;
+}
+.danpin-zi a:nth-child(1){
+	background: #F9E4A8;
+}
+.money{
+	width: 2.82rem;
+	height: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.money a{
+	display: block;
+	font-size: 0.10rem;
+	color: #000;
+	display: flex;
+}
+.money a img{
+	width: 0.27rem;
+	height: 0.24rem;
+	display: block;
+	margin-left: 0.05rem;
+	margin-top: 0.03rem;
+}
+/* 最后结束 */
+/*下导航开始*/
+.dao-box{
+   width: 100%;
+   height: 0.98rem;
+   background: #fff;
+   display: flex;
+   position: fixed;
+   z-index: 100;
+   bottom: 0;
+   left: 0;
+   border-top: 0.01rem solid #C5C5C5;
+}
+.dao1{
+   width: 100%;
+   height: 0.98rem;
+   display: flex;
+   justify-content: space-around;
+}
+.dao1 li{
+	width: 0.9rem;
+	height: 0.72rem;
+	margin-top: 0.15rem;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dao1 li a{
+	font-size: 0.19rem;
+	color: #676767;
+	text-align: center;
+}
+.dao1 li img{
+	display: block;
+	width: 0.42rem;
+	height: 0.43rem;
+}
+.dao1 li:nth-child(3) img{
+	margin-left: 0.1rem;
+}
+.dao1 li:nth-child(2) img{
+	margin-left: 0.02rem;
+}
+.dao-box1{
+   width: 100%;
+   height: 0.98rem;
+}
+/*下导航结束*/

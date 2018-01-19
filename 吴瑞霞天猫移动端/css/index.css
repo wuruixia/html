@@ -1,0 +1,549 @@
+@import url('base.css');
+/* body{
+	width: 100%;
+	height: 52rem;
+} */
+/* 导航开始 */
+.box{
+	width: 100%;
+	height: 0.88rem;
+	background: #F32D2D;
+	position: fixed;
+	z-index: 99;
+}
+.head{
+	width: 100%;
+	height: 0.88rem;
+    float: left;
+}
+.daokuang{
+	width: 100%;
+	height: 0.66rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.nav-left{
+	width: 0.41rem;
+	height: 0.34rem;
+	float: left;
+	margin: 0.12rem 0.4rem 0.41rem 0.2rem;
+
+}
+.nav-left img{
+	width: 0.41rem;
+	height: 0.34rem;
+	float: left;
+}
+.nav-center{
+	width: 3.98rem;
+	height: 0.66rem;
+	float: left;
+	background: pink;
+}
+input{
+	width: 3.12rem;
+	height: 0.66rem;
+	background: #FEE9E9;
+	float: left;
+	border: 0;
+	font-size: 0.24rem;
+	color: #A28D8D;
+	margin-top: 0.1rem;
+	margin: 0 auto;
+	border-radius: 0.05rem;
+	padding-left: 0.2rem;
+}
+input:focus{
+	outline: none;
+}
+.sousuo img{
+	display: block;
+	width: 0.66rem;
+	height: 0.66rem;
+	float: right;
+}
+.nav-right{ 
+	float:left;
+	font-size: 0.21rem;
+	color: #fff;
+	line-height: 0.66rem;
+	margin-left: 0.37rem;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner-box{
+	width: 100%;
+	height: 2.22rem;
+	float: left;
+	position: relative;
+}
+.banner-tu img{
+	width: 100%;
+	height: 100%;
+    display: block;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btn{
+	width: 1.60rem;
+	height: 0.14rem;
+	float: left;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+    bottom:0.16rem;
+    left: 0;
+}
+.btn li{
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background: #7B7A7D;
+	border: 0.01rem solid #7B7A7D;
+	float: left;
+	margin-right:0.04rem;
+}
+.btn li:hover{
+	background: #fff;
+}
+.btn li:last-child{
+	margin-right: 0;
+	background: #fff;
+}
+/* banner结束 */
+/* 积分乐园开始 */
+.nav-box{
+	width: 100%;
+	height: 2.66rem;
+	background: #fff;
+}
+.nav-top{
+	width: 100%;
+	height: 1.33rem;
+}
+.nav-top li{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.nav-top li .tupian{
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+	border-radius: 0.2rem;
+	margin: 0.07rem auto 0;
+}
+.nav-top li .tupian img{
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+}
+.nav-top li .word{
+    display: block;
+    font-size: 0.22rem;
+    margin: 0.15rem auto 0;
+    text-align: center;
+}
+
+/* 积分乐园结束 */
+/* 必抢开始 */
+.bi-box{
+	width: 100%;
+	height: 5.66rem;
+	float: left;
+}
+.bi-top{
+	width: 100%;
+	height: 0.62rem;
+	float: left;
+	background: #F0F0F0;
+	position: relative;
+}
+.bi-top1{
+	width: 2.64rem;
+	height: 0.62rem;
+	float: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.bi1{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #F6B7B7;
+	float: left;
+	position: absolute;
+	top:0.3rem;
+	left: 0;
+}
+.bi2{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #F6B7B7;
+	float: right;
+	position: absolute;
+	top:0.3rem;
+	right: 0;
+}
+.bi-top1 img{
+	display: block;
+	width: 0.24rem;
+	height: 0.3rem;
+	float: left;
+	position: absolute;
+	top:0.16rem;
+	left: 0.88rem;
+}
+.bi-zi{
+	font-size: 0.24rem;
+	float: left;
+	line-height: 0.62rem;
+	margin-left: 1.22rem;
+    color: #FF2E2E;
+}
+.bi-tubox{
+	width: 100%;
+	height: 2.54rem;
+	float: left;
+}
+.bi-tubox li{
+	width: 25%;
+	height: 2.54rem;
+	float: left;
+	box-sizing: border-box;
+	border: 0.02rem solid #F0F0F0;
+}
+.tu-zi{
+	width: 1.02rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	float: left;
+	margin-left: 0.29rem;
+	margin-top: 0.14rem;
+	color: #000;
+}
+.bi-tubox li img{
+	display: block;
+	width: 100%;
+	height: 1.27rem;
+	float: left;
+	margin-top: 0.2rem;
+}
+.tu-price{
+	width: 1.17rem;
+	height: 0.17rem;
+	font-size: 0.16rem;
+	float: left;
+	margin-left: 0.22rem;
+	margin-top: 0.32rem;
+	color: #FF2E2E;
+}
+.tu-price s{
+	color: #9B9B9B;
+}
+/* 必抢结束 */
+/* 潮流开始 */
+.chao-box{
+	width: 100%;
+	height: 3.22rem;
+	float: left;
+}
+.chao-top{
+	width: 100%;
+	height: 0.62rem;
+	float: left;
+	background: #F0F0F0;
+	position: relative;
+}
+.chao-top1{
+	width: 3.20rem;
+	height: 0.62rem;
+	float: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.chao1{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #BECFEC;
+	float: left;
+	position: absolute;
+	top:0.3rem;
+	left: 0;
+}
+.chao2{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #BECFEC;
+	float: right;
+	position: absolute;
+	top:0.3rem;
+	right: 0;
+}
+.chao-top1 img{
+	display: block;
+	width: 0.24rem;
+	height: 0.3rem;
+	float: left;
+	position: absolute;
+	top:0.16rem;
+	left: 0.88rem;
+}
+.chao-zi{
+	font-size: 0.24rem;
+	float: left;
+	line-height: 0.62rem;
+	margin-left: 1.22rem;
+    color: #4A84E2;
+}
+.chao-tubox{
+	width: 100%;
+	height: 2.66rem;
+	float: left;
+}
+.chao-tubox li{
+	width:33.333333%;
+	height: 2.66rem;
+	background: orange;
+	float: left;
+}
+.chao-tubox li img{
+	width:100%;
+	height: 2.66rem;
+	display: block;
+}
+/* 潮流结束 */
+/* 品牌开始 */
+.pin-box{
+	width: 100%;
+	height: 2.50rem;
+	float: left;
+}
+.pin-top{
+	width: 100%;
+	height: 0.62rem;
+	float: left;
+}
+.pin-top{
+	width: 100%;
+	height: 0.62rem;
+	float: left;
+	background: #F0F0F0;
+	position: relative;
+}
+.pin-top1{
+	width: 3.20rem;
+	height: 0.62rem;
+	float: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.pin1{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #FF8000;
+	float: left;
+	position: absolute;
+	top:0.3rem;
+	left: 0;
+}
+.pin2{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #FF8000;
+	float: right;
+	position: absolute;
+	top:0.3rem;
+	right: 0;
+}
+.pin-top1 img{
+	display: block;
+	width: 0.24rem;
+	height: 0.26rem;
+	float: left;
+	position: absolute;
+	top:0.16rem;
+	left: 0.88rem;
+}
+.pin-zi{
+	font-size: 0.24rem;
+	float: left;
+	line-height: 0.62rem;
+	margin-left: 1.22rem;
+    color: #FF8000;
+}
+.pin-tubox{
+	width: 100%;
+	height: 1.88rem;
+    float: left;
+
+}
+.pin-tubox li{
+	width: 50%;
+	height: 1.88rem;
+	float: left;
+	background:pink;
+	box-sizing: border-box; 
+}
+.pin-tubox li:first-child{
+	border-right: 0.02rem solid #F0F0F0;
+}
+.pin-tubox li img{
+	width: 100%;
+	height: 1.88rem;
+	float: left;
+	display: block;
+}
+/* 品牌结束 */
+/* 猜你开始 */
+.chai-box{
+	width: 100%;
+	height:9.70rem;
+	float: left;
+}
+.chai-top{
+	width: 100%;
+	height:0.62rem;
+	float: left;
+	position: relative;
+	background: #F0F0F0;
+}
+.chai-top1{
+	width: 1.92rem;
+	height: 0.62rem;
+	float: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.chai1{
+	width: 0.28rem;
+	height: 0.02rem;
+	background: #999999;
+	float: left;
+	margin-top: 0.3rem;
+}
+.chai2{
+	width: 0.28rem;
+	height: 0.02rem;
+	background: #999999;
+	float: right;
+	margin-top: 0.3rem;
+}
+.chai-zi{
+	font-size: 0.24rem;
+	float: left;
+	line-height: 0.62rem;
+    color: #999999;
+    margin-left: 0.09rem;
+}
+.chai-tubox{
+	width: 100%;
+	height: 4.54rem;
+	float: left;
+}
+.chai-tubox li{
+	width: 50%;
+	height: 4.54rem;
+	float: left;
+	box-sizing: border-box;
+	border-right: 0.02rem solid #F0F0F0;
+	border-bottom: 0.02rem solid #F0F0F0;
+}
+.chai-tubox li img{
+	display: block;
+	width: 100%;
+	height: 3.17rem;
+
+}
+.chai-tubox li p{
+   width: 2.78rem;
+   height: 0.56rem;
+   font-size: 0.26rem;
+   color: #666666;
+   margin-left: 0.17rem;
+   margin-top: 0.14rem;
+}
+.chai-tubox li .yuan1{
+	font-size: 0.16rem;
+	color: #DD2727;
+    float: left;
+    margin-top: 0.22rem;
+    margin-left: 0.17rem;
+}
+.chai-tubox li .yuan2{
+	font-size: 0.26rem;
+	color: #DD2727;
+    float: left;
+    margin-top: 0.20rem;
+    margin-left: 0.09rem;
+}
+.chai-tubox li .yuan3{
+	font-size: 0.16rem;
+	color: #DD2727;
+    float: left;
+    margin-top: 0.22rem;
+
+}
+/* 底部开始 */
+.di-box{
+	width: 100%;
+	height: 0.85rem;
+	float: left;
+	background: #EEEEEE;
+}
+.di-box img{
+	width: 0.60rem;
+	height: 0.42rem;
+	display: block;
+	margin-left: 2.90rem;
+	margin-top: 0.27rem;
+}
+.di-last{
+	width: 100%;
+	height: 2.02rem;
+	float: left;
+	border-top: 0.04rem solid #000;
+}
+.di-last li{
+	display: block;
+	font-size: 0.22rem;
+	float: left;
+	margin-right: 0.30rem;
+	margin-top: 0.43rem;
+	margin-bottom: 0.66rem;
+}
+.di-last li a{
+	color: #A59999;
+}
+.di-last li:first-child{
+	margin-left: 0.55rem;
+}
+.di-last li span{
+	margin-left: 0.30rem;
+	color: #A59999;
+}
+.di-last p{
+	font-size: 0.21rem;
+	color: #CCCCCC;
+	text-align: center;
+	margin-bottom: 0.48rem;
+}
+/* 底部结束 */

@@ -1,0 +1,526 @@
+@import url('base.css');
+/* header开始 */
+.headerbox{
+	width: 100%;
+	height: 0.89rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.32rem 0.34rem 0 0.35rem;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 0.01rem solid #C5C5C5;
+}
+.headerbox1{
+	width: 100%;
+	height: 0.89rem;
+}
+.header-left{
+	width: 0.41rem;
+	height: 0.40rem;
+	background: url('../img/sousuo.png') no-repeat center center;
+	background-size: 0.41rem 0.40rem;
+}
+.header-center{
+	width: 0.9rem;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #000;
+}
+.header-right{
+	width: 0.4rem;
+	height: 0.37rem;
+	background: url('../img/header-right.png') no-repeat center center;
+	background-size: 0.4rem 0.37rem;
+}
+/* header结束 */
+/* banner开始 */
+.banner-box{
+	width: 100%;
+	height: 3.34rem;
+	display: flex;
+	position: relative;
+}
+.banner-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.btn{
+	width: 1.07rem;
+	height:0.2rem;
+	position: absolute;
+	left:2.67rem;
+	bottom: 0.16rem; 
+	display: flex;
+	justify-content: space-between;
+}
+.btn li{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #fff;
+	border-radius: 50%;
+}
+.btn1{
+	width: 1.07rem;
+	height:0.2rem;
+	position: absolute;
+	left:2.67rem;
+	bottom: 0.16rem; 
+	display: flex;
+	justify-content: space-between;
+}
+.btn1 li{
+	width: 0.16rem;
+	height: 0.06rem;
+	background: #fff;
+	border-radius: 40%;
+	opacity: 0;
+}
+.btn1 li:hover{
+	opacity: 1;
+}
+.btn1 li:first-child{
+	opacity: 1;
+}
+/* banner结束 */
+/* 导航开始 */
+.nav-box{
+	width: 100%;
+	height: 0.68rem;
+	background:#fff;
+	display: flex;
+	font-size: 0.2rem;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.24rem;
+}
+.nav-box a{
+	display: flex;
+	color: #A4A4A4;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-box a img{
+	display: block;
+	width: 0.15rem;
+	height: 0.15rem;
+}
+/* 导航结束 */
+.kong-box{
+	width: 100%;
+	height: 0.1rem;
+	background: #F2F5F8;
+}
+/* 圆图开始 */
+.yuantu-box{
+	width: 100%;
+	height: 2.44rem;
+	display: flex;
+}
+.tupian{
+	width: 100%;
+	height: 2.44rem;
+	display: flex;
+	justify-content: space-around;
+}
+.tupian li{
+	width: 1.2rem;
+	height: 2.44rem;
+	text-align: center;
+	padding-top: 0.47rem;
+}
+.tupian li a{
+    color: #333;
+}
+.tupian img{
+	display: block;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-bottom: 0.26rem;
+}
+.tupian li p{
+   font-size: 0.2rem;
+
+}
+/* 圆图结束 */
+/* 限时秒杀开始 */
+.miao-box{
+	width: 100%;
+	height: 3.59rem;
+	padding: 0 0.18rem;
+}
+.miao-top{
+	width: 100%;
+	height: 0.68rem;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.miao-top a{
+	display: block;
+	font-size: 0.2rem;
+	color: #000;
+	display: flex;
+}
+.miao-top img{
+	display: block;
+	width: 0.19rem;
+	height: 0.24rem;
+	margin-right: 0.14rem;
+}
+.miao-bottom{
+	width: 6.03rem;
+	height: 2.56rem;
+}
+.miao-bottom img{
+	display: block;
+	width: 6.03rem;
+	height: 2.56rem;
+}
+/* 限时秒杀结束 */
+/* 今日上新开始 */
+.jinri-box{
+	width: 100%;
+	height: 4.0rem;
+	padding: 0 0.18rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.jin-tu{
+	width: 6.07rem;
+	height: 3.21rem;
+	display: flex;
+	justify-content: space-between;
+}
+.jin-tu li{
+	width: 1.73rem;
+	height: 2.9rem;
+}
+.jin-tu li p{
+	display: block;
+	font-size: 0.16rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.12rem;
+}
+.jin-tu img{
+	display: block;
+	width: 100%;
+	height: 2.56rem;
+}
+/* 今日上新结束 */
+/* 正在流行开始 */
+.liu-box{
+	width: 100%;
+	height: 7.19rem;
+	background: #fff;
+    border-bottom: 0.1rem solid #f2f5f8;
+    padding: 0 0.18rem;
+}
+.liu-tu{
+	width: 5.13rem;
+	height: 5.14rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.liu-tu li{
+	width: 1.21rem;
+	height: 1.58rem;
+	margin-right: 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.liu-tu li img{
+	display: block;
+	width: 1.21rem;
+	height: 1.2rem;
+	background: pink;
+}
+.liu-tu li p{
+	display: block;
+	font-size: 0.19rem;
+	color: #353535;
+	text-align: center;
+	margin-top: 0.12rem;
+}
+.liu-btn{
+	width: 100%;
+	height: 0.98rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+.liu-btn li{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #666;
+    border-radius: 50%;
+    margin-right: 0.12rem;
+   
+	
+}
+.liu-btn li:nth-of-type(1){
+	width: 0.56rem;
+	height: 0.28rem;
+	background: #fd7632;
+	border-radius: 0.2rem; 	
+	 font-size: 0.17rem;
+	 color: #fff;
+	 text-align: center;
+	 line-height: 0.28rem;
+}
+
+/* 正在流行结束 */
+/* 好物搭配开始 */
+.hao-box{
+	width: 100%;
+	height: 6.74rem;
+	background: #fff;
+	padding: 0 0.16rem;
+	margin-bottom: 0.43rem;
+}
+
+
+.hao-list{
+	width: 100%;
+	height: 6.05rem;
+	background: #fff;
+	display: flex;
+}
+.hao-left{
+	width: 4.01rem;
+	height: 6.05rem;
+	margin-right: 0.04rem;
+	position: relative;
+}
+
+.hao-left img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hao-left p{
+	display: block;
+	position: absolute;
+	bottom: 0.5rem;
+	left:0.62rem;
+	font-size: 0.28rem;
+	color: #fff;
+}
+.hao-right{
+	width: 1.99rem;
+	height: 100%;
+}
+.hao-right li{
+	width: 100%;
+	height: 1.99rem;
+	margin-bottom: 0.04rem;
+	position: relative;
+}
+.hao-right li:last-of-type{
+	margin-bottom: 0;
+
+}
+
+.hao-right li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hao-right .price{
+	width: 0.95rem;
+	height: 0.36rem;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 0.17rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.36rem;
+}
+.hao-bottom{
+	width: 100%;
+	height: 5.59rem;
+	background: #fff;
+	padding: 0 0.16rem;
+
+}
+.hao-top{
+	width: 100%;
+	height: 2.89rem;
+	margin-bottom: 0.09rem;
+}
+.hao-top a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hao-top img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hao-bottom1{
+	width: 100%;
+	height: 2.21rem;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.hao-bottom1 li{
+	width: 1.2rem;
+	height: 2.1rem;
+}
+.hao-bottom1 li img{
+	display: block;
+	width: 100%;
+	height: 1.79rem;
+}
+.hao-bottom1 li  p{
+    display: block;
+    font-size: 0.18rem;
+    color: #393939;
+    text-align: center;
+    margin-top: 0.14rem;
+}
+.hao-bottom1 li:last-of-type{
+	width: 0.94rem;
+}
+.hao-box1{
+	width: 100%;
+	height: 6.06rem;
+	background: #fff;
+	padding: 0 0.16rem;
+	margin-bottom: 0.43rem;
+}
+.di-top{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: center;
+}
+.di-zi{
+	width: 5.52rem;
+	height: 0.6rem;
+	border-radius: 0.4rem;
+	background: #F1F6F7;
+	display: flex;
+	justify-content: center;
+}
+.di-zi a{
+	font-size: 0.22rem;
+	color: #000;
+	line-height: 0.6rem;
+}
+/* 单品开始 */
+.danpin-box{
+	width: 100%;
+	height:11.88rem;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0.18rem;
+}
+.danpin-tu{
+	width: 100%;
+	height: 5.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.danpin-tu li{
+	width: 2.9rem;
+	height: 5.6rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.danpin-tu li img{
+	display: block;
+	width: 2.9rem;
+	height: 4.35rem;
+}
+.danpin-zi{
+	width: 2.72rem;
+	height: 0.66rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.danpin-zi a{
+	font-size: 0.2rem;
+	color: #9293A5;
+	margin-right: 0.1rem;
+	background: #F2F5F8;
+}
+.danpin-zi a:nth-child(1){
+	background: #F9E4A8;
+}
+.money{
+	width: 2.82rem;
+	height: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.money a{
+	display: block;
+	font-size: 0.10rem;
+	color: #000;
+	display: flex;
+}
+.money a img{
+	width: 0.27rem;
+	height: 0.24rem;
+	display: block;
+	margin-left: 0.05rem;
+	margin-top: 0.03rem;
+}
+/* 单品结束 */
+/*下导航开始*/
+.dao-box{
+   width: 100%;
+   height: 0.98rem;
+   background: #fff;
+   display: flex;
+   position: fixed;
+   z-index: 100;
+   bottom: 0;
+   left: 0;
+   border-top: 0.01rem solid #C5C5C5;
+}
+.dao1{
+   width: 100%;
+   height: 0.98rem;
+   display: flex;
+   justify-content: space-around;
+}
+.dao1 li{
+	width: 0.9rem;
+	height: 0.72rem;
+	margin-top: 0.15rem;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dao1 li a{
+	font-size: 0.19rem;
+	color: #676767;
+	text-align: center;
+}
+.dao1 li img{
+	display: block;
+	width: 0.42rem;
+	height: 0.43rem;
+}
+.dao1 li:nth-child(3) img{
+	margin-left: 0.1rem;
+}
+.dao1 li:nth-child(2) img{
+	margin-left: 0.02rem;
+}
+.dao-box1{
+   width: 100%;
+   height: 0.98rem;
+}
+/*下导航结束*/

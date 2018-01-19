@@ -1,0 +1,167 @@
+@import url('base.css');
+/* header开始 */
+.headerbox{
+	width: 100%;
+	height: 0.89rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.32rem 0.34rem 0 0.35rem;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 0.01rem solid #C5C5C5;
+}
+.headerbox1{
+	width: 100%;
+	height: 0.89rem;
+}
+.header-left{
+	width: 0.41rem;
+	height: 0.40rem;
+	background: url('../img/5.png') no-repeat center center;
+	background-size: 0.30rem 0.30rem;
+}
+.header-center{
+	width: 1.4rem;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #000;
+}
+/* header结束 */
+/* nav开始 */
+nav{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+}
+.nav-list{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 0.26rem 0 0 0.4rem;
+}
+.nav-list li{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	/* align-items: center; */
+}
+.nav-list li:first-child a{
+	font-size:0.28rem; 
+	color:#000; 
+    border-bottom: 0.04rem solid  #000000;
+}
+.nav-list li a{
+	font-size:0.24rem; 
+	color: #666666;
+	
+}
+/* nav结束 */
+/* 订单列表开始 */
+
+.dingdan-list{
+	width: 100%;
+	height:12.66rem;
+	background: #fff;
+}
+.dan-list{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+}
+.dan-list li{
+    width: 100%;
+	height: 4.22rem;
+	padding:0.30rem 0.2rem 0;
+	border-top: 0.1rem solid #f2f5f8;
+}
+.dan-list li .dan-name{
+	width:100%; 
+	height:0.74rem;
+}
+.dan-name a{
+	width:100%; 
+	height:0.74rem;
+	display: flex;
+	justify-content: space-between; 
+	
+}
+.dan-name a span{
+	font-size: 0.26rem;
+	color: #333;
+}
+.dan-list li .dan-tu{
+	width:100%; 
+	height:1.88rem;
+	/* background: green; */
+}
+.dan-list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+    justify-content: space-between; 
+}
+.dan-tu .tu-left{
+	width:1.2rem; 
+	height: 100%;
+	background: #fff;
+}
+
+.dan-tu .tu-left img{
+	width:100%; 
+	height: 100%;
+}
+.dan-tu .tu-right{
+	width:4.6rem; 
+	height: 100%;
+	background: #fff;
+	padding-bottom: 0.14rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.tu-right1{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.tu-right1 p{
+	font-size: 0.25rem;
+	color: #363636;
+}
+.tu-right2{
+	width: 100%;
+	height: 0.8rem;
+	display: flex;
+	justify-content: space-between;
+}
+.tu-right2 p{
+	font-size: 0.25rem;
+	color: #999999;
+}
+.tu-right2 p:nth-of-type(2){
+	align-self: flex-end;
+}
+.price{
+	width:100%; 
+	height:1.4rem;
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.price .p1{
+    font-size: 0.26rem;
+    color: #999999;
+}
+
+.price .p2{
+    font-size: 0.26rem;
+    color: #ff6699;
+}
+/* 订单列表结束 */

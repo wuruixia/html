@@ -1,0 +1,230 @@
+@import url('base.css');
+/* header开始 */
+.headerbox{
+	width: 100%;
+	height: 0.89rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.32rem 0.34rem 0 0.35rem;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 0.01rem solid #C5C5C5;
+}
+.headerbox1{
+	width: 100%;
+	height: 0.89rem;
+}
+.header-left{
+	width: 0.41rem;
+	height: 0.40rem;
+	background: url('../img/5.png') no-repeat center center;
+	background-size: 0.41rem 0.40rem;
+}
+.header-center{
+	width: 1.4rem;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #000;
+}
+.header-right{
+	width: 0.4rem;
+	height: 0.37rem;
+	background: url('../img/header-right.png') no-repeat center center;
+	background-size: 0.4rem 0.37rem;
+}
+/* header结束 */
+/* banner开始 */
+.banner-box{
+	width: 100%;
+	height: 2.13rem;
+	position: relative;
+}
+.banner-box img{
+	display: block;
+	width: 100%;
+	height: 2.13rem;
+}
+.yin{
+	width: 5.5rem;
+	height: 0.5rem;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 1.02rem;
+	left: 0.32rem;
+
+}
+.yin a{
+	font-size: 0.18rem;
+	color: #fff;
+	margin-right: 0.1rem;
+}
+.yin img{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: pink;
+}
+/* banner结束 */
+/* 导航开始 */
+.nav-box{
+	width: 100%;
+	height: 0.76rem;
+	padding-left: 0.36rem;
+	padding-right: 0.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.nav-top{
+	width:5.94rem;
+	height: 0.24rem; 
+	display: flex;
+	margin-top: 0.25rem;
+	justify-content:space-between;
+}
+.nav-top a{
+	display: block;
+	font-size: 0.24rem;
+	color: #666666;
+}
+.bottom{
+	width: 5.8rem;
+	height: 0.1rem;
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+}
+.xian{
+	width: 0.44rem;
+	height: 0.03rem;
+	background: #FF6699;
+}
+/* 导航结束 */
+/* 列表开始 */
+.list-box{
+	width: 100%;
+	height: 2.06rem;
+	display: flex;
+	align-items: flex-end;
+	padding: 0 0.2rem 0 0.2rem;
+	border-bottom: 0.01rem solid #F2F5F8;
+}
+.list-tu{
+	width: 100%;
+	height: 1.88rem;
+	display: flex;
+	justify-content: space-between;
+}
+.tu-left{
+	width: 1.66rem;
+	height: 1.88rem;
+	display: flex;
+}
+.tu-left a{
+	display: block;
+	position: relative;
+}
+.tu-left img{
+	display: block;
+	width: 1.66rem;
+	height: 1.88rem;
+}
+.tu-left .img2{
+	display: block;
+	width: 0.96rem;
+	height: 0.34rem;
+	position: absolute;
+	bottom: 0.25rem;
+	left: 0;
+}
+.tu-right{
+	width: 4.18rem;
+	height: 1.88rem;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.tu-right a:nth-of-type(1){
+    font-size: 0.24rem;
+    color: #000;
+}
+.tu-right a:nth-of-type(2){
+    font-size: 0.26rem;
+    color: #FF6699;
+    margin-top: 0.46rem;
+}
+.tu-right s{
+	font-size: 0.14rem;
+	color: #999;
+
+}
+.tu-right a:nth-of-type(3){
+    font-size: 0.16rem;
+    color: #999;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: flex-end;
+   
+}
+.kai{
+	width: 1.54rem;
+	height: 0.51rem;
+	background: #FF6699;
+	border-radius: 0.25rem;
+	margin-left: 0.4rem;
+}
+.kai p{
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.51rem;
+}
+/* 列表结束 */
+/*下导航开始*/
+.dao-box{
+   width: 100%;
+   height: 0.98rem;
+   background: #fff;
+   display: flex;
+   position: fixed;
+   z-index: 100;
+   bottom: 0;
+   left: 0;
+   border-top: 0.01rem solid #C5C5C5;
+}
+.dao1{
+   width: 100%;
+   height: 0.98rem;
+   display: flex;
+   justify-content: space-around;
+}
+.dao1 li{
+	width: 1rem;
+	height: 0.72rem;
+	margin-top: 0.15rem;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dao1 li a{
+	font-size: 0.19rem;
+	color: #676767;
+	text-align: center;
+}
+.dao1 li img{
+	display: block;
+	width: 0.42rem;
+	height: 0.43rem;
+	margin-left: 0.24rem;
+}
+.dao-box1{
+   width: 100%;
+   height: 0.98rem;
+}
+/*下导航结束*/

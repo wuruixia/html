@@ -1,0 +1,278 @@
+@import url('base.css');
+/* header开始 */
+.headerbox{
+	width: 100%;
+	height: 0.89rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.32rem 0.34rem 0 0.35rem;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 0.01rem solid #C5C5C5;
+}
+.headerbox1{
+	width: 100%;
+	height: 0.89rem;
+}
+.header-left{
+	width: 0.41rem;
+	height: 0.40rem;
+	display: flex;
+}
+.header-left i{
+	font-size: 0.4rem;
+	color: #000;
+}
+.header-right{
+	width: 0.4rem;
+	height: 0.37rem;
+	background: url('../img/header-right.png') no-repeat center center;
+	background-size: 0.4rem 0.37rem;
+}
+/* header结束 */
+/*风格开始  */
+.fenge-box{
+	width: 100%;
+	height: 1.7rem;
+	padding: 0 0.2rem 0 0.2rem;
+	display: flex;
+	align-items: center;
+}
+.fen-left{
+	width: 1rem;
+	height:1rem;
+	border-radius: 50%;
+	margin-right: 0.4rem;
+}
+.fen-left img{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	border-radius: 50%;
+}
+.fen-right{
+	width: 4.66rem;
+	height: 1.1rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.fen-top{
+	width: 4.63rem;
+	height: 0.38rem;
+	display: flex;
+
+}
+.fen-top a{
+	width:3.6rem;
+	height: 0.38rem;
+	display: block;
+	font-size: 0.34rem;
+	margin-right: 0.2rem;
+	color: #000;
+	display: flex;
+	justify-content: space-between;
+}
+.fen-top i{
+	font-size: 0.38rem;
+	display: block;
+	color:#FFE793; 
+}
+.fen-di{
+	width: 4.62rem;
+	height: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+.fen-di p{
+	font-size:0.22rem;
+	color: #464646; 
+}
+.fen-di a{
+	font-size: 0.24rem;
+	color: #787878;
+}
+.dingyuan{
+	width: 1.6rem;
+	height: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius:0.3rem;
+	border: 0.02rem solid #494949;
+}
+/*风格结束  */
+.kong-box{
+	width: 100%;
+	height: 0.1rem;
+	background: #F2F5F8;
+}
+/*订单列表开始*/
+.ding-box{
+	width: 100%;
+	height: 1.28rem;
+	padding: 0 0.2rem 0 0.2rem;
+	display: flex;
+}
+.ding-box li{
+	width: 20%;
+	height:1.28rem;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.ding-box li a{
+	font-size: 0.2rem;
+	color: #000;
+	text-align: center;
+}
+.ding-box i{
+	width: 0.43rem;
+	height: 0.3rem;
+	display: block;
+	margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.15rem;
+}
+/*订单列表结束*/
+/* 钱包开始 */
+.qian-box{
+	width: 100%;
+	height: 3.42rem;
+	padding: 0 0.2rem 0 0.2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.qian-box li{
+	width: 1.28rem;
+	height: 1.28rem;
+	background: #e9faf4;
+	display: flex;
+	justify-content: center;
+
+}
+.qian-box li:nth-of-type(2){
+    background: #e7f3f8;
+}
+.qian-box li:nth-of-type(8){
+    background: #fff9e8;
+}
+.qian-box li:nth-of-type(3){
+    background: #fdf9de;
+}
+.qian-box li:nth-of-type(4){
+    background: #eaf9f7;
+}
+.qian-box li:nth-of-type(5){
+    background: #fff5f9;
+}
+.qian-box li:nth-of-type(6){
+    background: #f4f3fd;
+}
+.qian-box li:nth-of-type(7){
+    background: #fee5f7;
+}
+.qian-box li a{
+	display: block;
+    font-size: 0.22rem;
+    color: #747F87;
+    text-align: center;
+}
+.qian-box li i{
+	display: block;
+	font-size: 0.42rem;
+	margin-top: 0.28rem;
+	margin-bottom: 0.2rem;
+	margin-left: 0.10rem;
+}
+/* 钱包结束 */
+/* 达人开始 */
+.da-box{
+	width: 100%;
+	height: 1.04rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.2rem 0 0.2rem;
+}
+.da-left{
+	width: 2.3rem;
+	height: 0.52rem;
+	display: flex;
+}
+.da-left a{
+	display: block;
+	font-size: 0.26rem;
+	color: #787878;
+	display: flex;
+	align-items: center;
+}
+.da-left img{
+	width: 0.52rem;
+	height: 0.52rem;
+	display: block;
+	margin-right: 0.12rem;
+
+}
+.da-right{
+	display: block;
+	font-size: 0.2rem;
+	color: #979797;
+}
+.da-bottom{
+	width: 100%;
+	height: 1.8rem;
+	background: #F1F5F8;
+}
+/* 达人结束 */
+/*下导航开始*/
+.dao-box{
+   width: 100%;
+   height: 0.98rem;
+   background: #fff;
+   display: flex;
+   position: fixed;
+   z-index: 100;
+   bottom: 0;
+   left: 0;
+   border-top: 0.01rem solid #C5C5C5;
+}
+.dao1{
+   width: 100%;
+   height: 0.98rem;
+   display: flex;
+   justify-content: space-around;
+}
+.dao1 li{
+	width: 0.9rem;
+	height: 0.72rem;
+	margin-top: 0.15rem;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dao1 li a{
+	font-size: 0.19rem;
+	color: #676767;
+	text-align: center;
+}
+.dao1 li img{
+	display: block;
+	width: 0.42rem;
+	height: 0.43rem;
+}
+.dao1 li:nth-child(3) img{
+	margin-left: 0.1rem;
+}
+.dao1 li:nth-child(2) img{
+	margin-left: 0.02rem;
+}
+.dao-box1{
+   width: 100%;
+   height: 0.98rem;
+}
+/*下导航结束*/
